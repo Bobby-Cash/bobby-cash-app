@@ -14,6 +14,10 @@
   transform: scale(0.8);
 }
 
+.logo-install {
+  width: 300px;
+}
+
 .navbar-img {
   height: 26px;
 }
@@ -33,5 +37,20 @@
     width: 100%;
     margin: 5px;
     margin-top: 15px;
+  }
+
+  .btn-install {
+    width: 80%;
+  }
+
+  .logo-install {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* Only on desktop: */
+  .btn-install {
+    width: 200px;
   }
 }
