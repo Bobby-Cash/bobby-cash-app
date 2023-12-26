@@ -33,9 +33,9 @@
       </div>
       <div class="modal-body">
         <ol>
-          <li class="mb-2">Click install in the pop-up that just appeared above.</li>
+          <li class="mb-2">Click install in the pop-up that just appeared.</li>
           <li class="mb-2">If the pop-up did not appear, find three dots in the corner of your browser.</li>
-          <li class="mb-2">Select "Install" or "Install Bobby Cash".</li>
+          <li class="mb-2">Select "Install" or "Install app".</li>
           <li>After installation, close this browser tab and open the app from your apps directory.</li>
         </ol>
       </div>

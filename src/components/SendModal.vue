@@ -14,7 +14,10 @@
                 <span class="input-group-text">$</span>
                 <input 
                   v-model="amount"
-                  type="text" 
+                  type="number" 
+                  pattern="[0-9]*" 
+                  step="0.01"
+                  inputmode="numeric"
                   class="form-control form-control-lg" 
                 />
                 <span class="input-group-text">USDC</span>
