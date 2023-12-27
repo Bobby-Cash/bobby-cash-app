@@ -1,11 +1,17 @@
 <template>
 <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column justify-content-center d-flex">
 
-  <div class="d-flex justify-content-center mt-5">
+  <div class="d-flex justify-content-center mt-4">
     <img class="logo-install" src="@/assets/img/logo.svg" />
   </div>
 
-  <div class="d-flex justify-content-center mt-3">
+  <div class="d-flex justify-content-center">
+    <p class="text-center ps-5 pe-5">
+      Send and receive USDC privately via the zkBob protocol.
+    </p>
+  </div>
+
+  <div class="d-flex justify-content-center mt-4">
     <button 
       class="btn btn-secondary btn-lg btn-install" 
       data-bs-toggle="modal" 
@@ -16,11 +22,10 @@
     </button>
   </div>
 
-  <div class="row mt-5 text-center">
-
+  <div class="row mt-5 text-center pt-5">
     <p @click="skip">Skip and continue in browser</p>
-
   </div>
+
 </div>
 
 <!-- Modal -->

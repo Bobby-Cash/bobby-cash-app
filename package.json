@@ -10,15 +10,18 @@
     "generate-pwa-assets": "pwa-assets-generator"
   },
   "dependencies": {
+    "ethers": "^6.9.1",
     "pinia": "^2.1.7",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5",
-    "vue3-qr-reader": "^1.0.0"
+    "vue3-qr-reader": "^1.0.0",
+    "zkbob-client-js": "^5.4.0"
   },
   "devDependencies": {
     "@vite-pwa/assets-generator": "^0.2.2",
     "@vitejs/plugin-vue": "^4.5.2",
     "vite": "^5.0.10",
+    "vite-plugin-node-polyfills": "^0.18.0",
     "vite-plugin-pwa": "^0.17.4",
     "workbox-precaching": "^7.0.0"
   }
