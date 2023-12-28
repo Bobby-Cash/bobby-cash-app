@@ -34,6 +34,16 @@ export default function useZkbobHelpers() {
           "feeDecimals": 2,
           "depositScheme": "usdc-polygon",
           "ddSubgraph": "zkbob-usdc-polygon"
+        },
+        "USDC-optimism": {
+          "chainId": 10,
+          "poolAddress": "0x1CA8C2B9B20E18e86d5b9a72370fC6c91814c97C",
+          "tokenAddress": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+          "relayerUrls": ["https://relayer-optimism.zkbob.com"],
+          "delegatedProverUrls": ["https://remoteprover-mvp.zkbob.com/"],
+          "feeDecimals": 2,
+          "depositScheme": "usdc-optimism",
+          "ddSubgraph": "zkbob-usdc-optimism"
         }
       },
       "chains": {

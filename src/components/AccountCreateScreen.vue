@@ -2,7 +2,7 @@
 <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column justify-content-center d-flex">
 
   <div class="d-flex justify-content-center mt-5">
-    <img class="logo-install" src="@/assets/img/logo.svg" />
+    <img class="logo-install" src="../assets/img/logo.svg" />
   </div>
 
   <div class="d-flex justify-content-center mt-3">
